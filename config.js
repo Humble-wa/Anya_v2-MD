@@ -70,3 +70,6 @@ module.exports = {
         api1: "https://www.guruapi.tech" // Guru's API
     }
 }
+global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.save_status = process.env.AUTO_SAVE_STATUS || "false";
+Global.anti_delete_messages=process.env.ANTI_DELETE_MESSAGES||”true”
